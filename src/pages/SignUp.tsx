@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import CustomInput from "../components/CustomInput";
+import "./SignUp.css";
 
 const SignUp = () => {
   const [firstName, setFirstName] = useState("");
